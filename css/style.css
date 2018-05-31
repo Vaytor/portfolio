@@ -1,0 +1,30 @@
+/* Background */
+body{
+    background-color: #091330 !important;
+}
+
+/* css da navegação */
+#nav-principal{
+   background-color: #091330;
+   
+}
+
+#menu{
+    justify-content: center;
+}
+
+/* Links da navegação */
+a.nav-link{
+    color: #FFDC80 !important;
+    padding: 10px !important;
+    margin: 10px !important;
+    font-size: 12px;
+    font-family: 'Avenir Light', sans-serif;
+}
+
+a.nav-link:hover{
+    color: #FFBF19 !important;
+}
+
+
+
