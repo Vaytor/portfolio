@@ -1,4 +1,7 @@
-
+/* margem dos container*/
+.margin-container{
+    margin-top: 20%;    
+}
 /* Background */
 body{
     background-color: #091330 !important;
@@ -40,20 +43,58 @@ a.nav-link:hover{
     margin-top: 20px;
     font-size: 30px;
     text-align: center !important;
-    color: yellow;
+    color: #FFBF19;
     font-family: 'comic sans ms';
 }
 .subnome{
     margin-top: 15px;
     font-size: 20px;
     text-align: center !important;
-    color: yellow;
+    color: #FFBF19;
     font-family: 'comic sans ms';
 }
 .sobre{
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: justify !important;
     color: white;
     font-family: 'comic sans ms';
+}
+
+/* Skills */
+
+#skills{
+    margin-top: 20px;
+    text-align: center;
+    color:#FFBF19;
+    font-family: 'comic sans ms';
+    font-size: 42px;
+}
+
+#sub-skills{
+    margin-top: 40px;
+    text-align: center !important;
+    color: #FFBF19;
+    font-family: 'comic sans ms';
+    font-size: 28px;
+    margin-bottom: 8%;
+}
+.barra-amarela{
+    background-color: #FFBF19 !important;
+    border-left: 1px solid #091330 !important;
+}
+.barra-branca{
+    background-color: #091330 !important;
+    margin-right: -10px;
+}
+.nome-skill{
+    color: white;
+    font-family: 'comic sans ms';
+    font-size: 20px;
+    margin-right: 80px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.skill{
+    padding: 10px;
 }
 
