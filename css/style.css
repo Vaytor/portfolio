@@ -1,6 +1,6 @@
 /* margem dos container*/
 .margin-container{
-    margin-top: 20%;    
+    margin-top: 15%;    
 }
 /* Background */
 body{
@@ -39,19 +39,20 @@ a.nav-link:hover{
     margin-top: 30px;
     padding: 10px;    
 }
+/* Textos */
 .nome{
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 36px;
     text-align: center !important;
     color: #FFBF19;
-    font-family: 'comic sans ms';
+    font-family: 'comic sans ms' sans-serif;
 }
 .subnome{
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center !important;
-    color: #FFBF19;
-    font-family: 'comic sans ms';
+    color: #FFDC80;
+    font-family: 'comic sans ms' sans-serif;
 }
 .sobre{
     margin-top: 20px;
@@ -62,39 +63,39 @@ a.nav-link:hover{
 
 /* Skills */
 
-#skills{
-    margin-top: 20px;
-    text-align: center;
-    color:#FFBF19;
-    font-family: 'comic sans ms';
-    font-size: 42px;
-}
-
-#sub-skills{
-    margin-top: 40px;
-    text-align: center !important;
-    color: #FFBF19;
-    font-family: 'comic sans ms';
-    font-size: 28px;
-    margin-bottom: 8%;
-}
 .barra-amarela{
     background-color: #FFBF19 !important;
     border-left: 1px solid #091330 !important;
 }
 .barra-branca{
     background-color: #091330 !important;
-    margin-right: -10px;
+    width: 80%;
 }
 .nome-skill{
     color: white;
-    font-family: 'comic sans ms';
-    font-size: 20px;
-    margin-right: 80px;
+    font-family: 'comic sans ms' sans-serif;
+    font-size: 16px;
     margin-top: -8px;
     margin-bottom: 10px;
+    text-align: right;
+    color: #FFDC80;
 }
 .skill{
     padding: 10px;
+}
+.porcen{
+    margin-left: 10px;
+    color: #FFDC80;
+}
+@media only screen and (max-width: 767px) {
+    .nome-skill{
+        text-align: center;
+    }
+    .barra-branca{
+        width: 100%;
+    }
+}
+.subnome-margin{
+    margin-bottom: 50px;
 }
 
