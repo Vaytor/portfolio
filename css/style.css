@@ -94,6 +94,9 @@ a.nav-link:hover{
     .barra-branca{
         width: 100%;
     }
+    .contato-nome{
+        text-align: center;
+    }
 }
 .subnome-margin{
     margin-bottom: 50px;
@@ -105,3 +108,29 @@ a.nav-link:hover{
     width: 100%;
 }
 
+/* CONTATO */
+.contato{
+    padding: 10px;
+    font-family: 'comic sans ms' sans-serif;
+}
+.contato-nome{
+    font-size: 26px;
+    color: #FFDC80;
+}
+.contato-subnome{
+    color: #FFDC80;
+    margin-top: 30px;
+    text-align: left;
+}
+.div-form{
+    margin-top: 15px; 
+    border: 5px none #091330;
+    color: white;
+}
+.input-cor{
+    background-color: #E5D099 !important;
+    border: 5px none #E5D099 !important;
+}
+#msg{
+    padding: 10px;
+}
