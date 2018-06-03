@@ -1,3 +1,18 @@
+/* Media Query de sm para baixo*/
+@media only screen and (max-width: 767px) {
+    .nome-skill{
+        text-align: center !important;
+    }
+    .barra-branca{
+        width: 100%;
+    }
+    .contato-nome{
+        text-align: center;
+    }
+    .sobre{
+        text-align: justify !important;
+    }
+}
 /* margem dos container*/
 .margin-container{
     margin-top: 15%;    
@@ -56,9 +71,9 @@ a.nav-link:hover{
 }
 .sobre{
     margin-top: 20px;
-    text-align: justify !important;
+    text-align: center;
     color: white;
-    font-family: 'comic sans ms';
+    font-family: 'comic sans ms' sans-serif;
 }
 
 /* Skills */
@@ -87,17 +102,6 @@ a.nav-link:hover{
     margin-left: 10px;
     color: #FFDC80;
 }
-@media only screen and (max-width: 767px) {
-    .nome-skill{
-        text-align: center;
-    }
-    .barra-branca{
-        width: 100%;
-    }
-    .contato-nome{
-        text-align: center;
-    }
-}
 .subnome-margin{
     margin-bottom: 50px;
 }
@@ -109,7 +113,10 @@ a.nav-link:hover{
 }
 
 /* CONTATO */
-.contato{
+#contato{
+    margin-bottom: 10%;
+}
+.contato-div{
     padding: 10px;
     font-family: 'comic sans ms' sans-serif;
 }
@@ -133,4 +140,19 @@ a.nav-link:hover{
 }
 #msg{
     padding: 10px;
+}
+/* Icones */
+.social{
+    margin-top: 11%;
+    filter: brightness(75%) !important;
+}
+/* Rodapé */
+footer{
+    padding: 12px;
+}
+.footer{
+    text-align: center;
+    font-family: 'comic sans ms' sans-serif;
+    color: #FFDC80;
+    margin-bottom: 10px;
 }
