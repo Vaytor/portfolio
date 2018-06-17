@@ -16,7 +16,7 @@ function animeScroll(){
         
         //Pegando o valor da distância do elemento
         var itemTop = $(this).offset().top;
-
+        console.log(itemTop);
         //Verificando a distância entre o scroll e o elemento, caso seja maior, ele anima 
         if(distanceTop > itemTop - offset){
             $(this).addClass(animeClass);
@@ -24,6 +24,12 @@ function animeScroll(){
         }else{
             $(this).addClass("anime");
             $(this).removeClass(animeClass);
+        }
+
+        if(distanceTop >= 806.34375 - offset && distanceTop <= 1508.03125 + offset){
+            $(".progress").addClass("anime-progress");
+        }else{
+            $(".progress").removeClass("anime-progress");
         }
     });
 }

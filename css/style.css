@@ -105,6 +105,17 @@ a.nav-link:hover{
 .subnome-margin{
     margin-bottom: 50px;
 }
+/*Animação da progressbar*/
+.anime-progress{
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.0s;
+}
+@keyframes animateBar{
+    0% {width: 0;}
+    100% {width: 90%;}
+}
 
 /* Projetos */
 .projeto-img{
@@ -164,11 +175,6 @@ footer{
 }
 .anime-start{
     opacity: 1px;
-    transform: translate3d(0,0,0);
-    transition: .5s;
-}
-.anime-enc{
-    opacity: 0px;
     transform: translate3d(0,0,0);
     transition: .5s;
 }
