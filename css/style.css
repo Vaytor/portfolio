@@ -156,3 +156,19 @@ footer{
     color: #FFDC80;
     margin-bottom: 10px;
 }
+/* Animação */
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .5s;
+}
+.anime-start{
+    opacity: 1px;
+    transform: translate3d(0,0,0);
+    transition: .5s;
+}
+.anime-enc{
+    opacity: 0px;
+    transform: translate3d(0,0,0);
+    transition: .5s;
+}
