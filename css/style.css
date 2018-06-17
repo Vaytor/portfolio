@@ -153,6 +153,14 @@ a.nav-link:hover{
 #msg{
     padding: 10px;
 }
+.gif{
+    z-index: -1;
+    position: absolute;
+    left: 7%;
+    top: 22%;
+    width: 84%;
+    height: 48%;
+}
 /* Icones */
 .social{
     margin-top: 11%;
