@@ -114,7 +114,8 @@ a.nav-link:hover{
 }
 @keyframes animateBar{
     0% {width: 0;}
-    100% {width: 90%;}
+    50% {width: 10%;}
+    
 }
 
 /* Projetos */
