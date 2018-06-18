@@ -115,7 +115,6 @@ a.nav-link:hover{
 @keyframes animateBar{
     0% {width: 0;}
     50% {width: 10%;}
-    
 }
 
 /* Projetos */
@@ -123,6 +122,21 @@ a.nav-link:hover{
     margin-top: 20%;
     width: 100%;
 }
+.gif{
+    z-index: 1;
+    position: absolute;
+    left: 8%;
+    top: 23%;
+    width: 84%;
+    height: 46%;
+    filter: brightness(50%);
+    border-radius: 5px;
+}
+.gif:hover{
+    transform: scale(1.0195);
+    filter: brightness(100%);
+}
+
 
 /* CONTATO */
 #contato{
@@ -153,14 +167,7 @@ a.nav-link:hover{
 #msg{
     padding: 10px;
 }
-.gif{
-    z-index: -1;
-    position: absolute;
-    left: 7%;
-    top: 22%;
-    width: 84%;
-    height: 48%;
-}
+
 /* Icones */
 .social{
     margin-top: 11%;
