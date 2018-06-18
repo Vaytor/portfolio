@@ -132,11 +132,26 @@ a.nav-link:hover{
     filter: brightness(50%);
     border-radius: 5px;
 }
-.gif:hover{
+.gif:hover {
     transform: scale(1.0195);
     filter: brightness(100%);
 }
-
+.sobre-projeto{
+    z-index: 1;
+    position: absolute;
+    left: 8%;
+    top: 23%;
+    width: 84%;
+    height: 46%;
+}
+.gif:hover .sobre-projeto{
+    z-index: 2;
+    position: absolute;
+    left: 8%;
+    top: 23%;
+    width: 84%;
+    height: 46%;
+}
 
 /* CONTATO */
 #contato{
