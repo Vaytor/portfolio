@@ -123,7 +123,6 @@ a.nav-link:hover{
     width: 100%;
 }
 .gif{
-    z-index: 1;
     position: absolute;
     left: 8%;
     top: 23%;
@@ -136,26 +135,20 @@ a.nav-link:hover{
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-.gif:hover {
+.gif:hover{
+    -webkit-transform: scale(1.03);
     transform: scale(1.03);
     filter: brightness(100%);
 }
-.sobre-projeto{
-    z-index: 1;
+.gif-sobre{
     position: absolute;
+    z-index: -1;
     left: 8%;
-    top: 23%;
+    top: 70%;
     width: 84%;
     height: 46%;
 }
-.gif:hover .sobre-projeto{
-    z-index: 2;
-    position: absolute;
-    left: 8%;
-    top: 23%;
-    width: 84%;
-    height: 46%;
-}
+
 
 /* CONTATO */
 #contato{

@@ -16,7 +16,7 @@ function animeScroll(){
         
         //Pegando o valor da distância do elemento
         var itemTop = $(this).offset().top;
-        console.log(itemTop);
+
         //Verificando a distância entre o scroll e o elemento, caso seja maior, ele anima 
         if(distanceTop > itemTop - offset){
             $(this).addClass(animeClass);
@@ -42,5 +42,14 @@ animeScroll();
 $(document).scroll(function(){
     animeScroll();
 });
+
+//Animação gif da tela projeto
+$(".gif").hover(function(){
+    $(".gif-sobre").css("z-index", "1");
+    }, function(){
+    $(".gif-sobre").css("z-index", "-1");
+});
+
+
 
 }());
