@@ -131,9 +131,13 @@ a.nav-link:hover{
     height: 46%;
     filter: brightness(50%);
     border-radius: 5px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);    
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 .gif:hover {
-    transform: scale(1.0195);
+    transform: scale(1.03);
     filter: brightness(100%);
 }
 .sobre-projeto{
