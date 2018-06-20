@@ -148,6 +148,9 @@ a.nav-link:hover{
     width: 84%;
     height: 46%;
 }
+.div-gif:hover .gif-sobre{
+    z-index: 1;
+}
 
 
 /* CONTATO */

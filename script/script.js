@@ -43,13 +43,5 @@ $(document).scroll(function(){
     animeScroll();
 });
 
-//Animação gif da tela projeto
-$(".gif").hover(function(){
-    $(".gif-sobre").css("z-index", "1");
-    }, function(){
-    $(".gif-sobre").css("z-index", "-1");
-});
-
-
 
 }());
