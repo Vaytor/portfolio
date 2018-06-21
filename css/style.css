@@ -174,7 +174,7 @@ a.nav-link:hover{
 .contato-subnome{
     color: #FFDC80;
     margin-top: 30px;
-    text-align: left;
+    text-align: justify;
 }
 .div-form{
     margin-top: 15px; 
