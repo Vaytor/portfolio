@@ -140,13 +140,19 @@ a.nav-link:hover{
     transform: scale(1.03);
     filter: brightness(100%);
 }
+
 .gif-sobre{
-    position: absolute;
     z-index: -1;
-    left: 8%;
-    top: 70%;
-    width: 84%;
-    height: 46%;
+    position: absolute;
+    text-align: center;
+    left: 6%;
+    top: 60%;
+    width: 88%;
+    border-radius: 3px;
+    color: #E5D099;
+    background-color: rgba(0,0,0,0.9);;
+    padding-top: 5px;
+    font-family: 'comic sans ms' sans-serif;
 }
 .div-gif:hover .gif-sobre{
     z-index: 1;
