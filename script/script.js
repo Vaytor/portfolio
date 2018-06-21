@@ -51,6 +51,11 @@ $(function() {
     });
 });
 
+//Ativando o tooltip
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+
 }());
 
 
