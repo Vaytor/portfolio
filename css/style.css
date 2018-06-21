@@ -12,6 +12,9 @@
     .sobre{
         text-align: justify !important;
     }
+    #menu{
+        margin-left: -8%;
+    }
 }
 /* margem dos container*/
 .margin-container{
@@ -24,8 +27,7 @@ body{
 
 /* css da navegação */
 #nav-principal{
-   background-color: #091330;
-   
+    background-color: #091330;
 }
 
 #menu{
@@ -33,15 +35,15 @@ body{
 }
 
 /* Links da navegação */
-a.nav-link{
+.nav-link{
     color: #FFDC80 !important;
     padding: 10px !important;
     margin: 10px !important;
     font-size: 12px;
-    font-family: 'comic sans ms', sans-serif;
+    font-family: sans-serif;
 }
 
-a.nav-link:hover{
+.nav-link:hover{
     color: #FFBF19 !important;
 }
 
