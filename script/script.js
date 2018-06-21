@@ -43,5 +43,14 @@ $(document).scroll(function(){
     animeScroll();
 });
 
+//Animação de deslizamento
+$(function() {
+    $('a').bind('click',function(event){
+        var $ancora = $(this);
+        $('html, body').animate({scrollTop: $($ancora.attr('href')).offset().top - 80}, 500,'swing');
+    });
+});
 
 }());
+
+
