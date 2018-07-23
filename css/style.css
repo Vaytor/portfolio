@@ -53,26 +53,26 @@ body{
 
 /* Div Home */
 #foto{
-    margin-top: 30px;
+    margin-top: 8%;
     padding: 10px;    
 }
 /* Textos */
 .nome{
     margin-top: 20px;
-    font-size: 36px;
+    font-size: 42px;
     text-align: center !important;
     color: #FFBF19;
     font-family: 'comic sans ms' sans-serif;
 }
 .subnome{
-    margin-top: 15px;
+    margin-top: 2%;
     font-size: 24px;
     text-align: center !important;
     color: #FFDC80;
     font-family: 'comic sans ms' sans-serif;
 }
 .sobre{
-    margin-top: 20px;
+    margin-top: 6%;
     text-align: center;
     color: white;
     font-family: 'comic sans ms' sans-serif;
